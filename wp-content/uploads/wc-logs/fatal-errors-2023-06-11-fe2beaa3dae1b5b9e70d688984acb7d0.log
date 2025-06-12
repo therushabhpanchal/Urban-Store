@@ -1,0 +1,4 @@
+2023-06-11T04:29:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\mystore\wp-content\plugins\dokan-pro\modules\seller-badge\includes\Events\ExclusiveToPlatform.php on line 9
+
+2023-06-11T04:29:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\mystore\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\Api.php on line 73
+

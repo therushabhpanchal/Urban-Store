@@ -1,0 +1,17 @@
+2023-06-18T11:53:17+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: trending_product
+2023-06-18T11:53:17+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: years_active
+2023-06-18T11:53:46+00:00 INFO Vendor vaccation mode product status update completed.
+2023-06-18T12:28:08+00:00 DEBUG New Order #2746 created. Init sub order.
+2023-06-18T12:28:08+00:00 DEBUG 1 vendor only, skipping sub order.
+2023-06-18T12:28:08+00:00 DEBUG Failed to get delivery date for order id: 2746
+2023-06-18T12:28:20+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: sale_amount
+2023-06-18T12:28:20+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: number_of_items_sold
+2023-06-18T12:28:20+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: number_of_orders
+2023-06-18T12:32:07+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: sale_amount
+2023-06-18T12:32:07+00:00 DEBUG New Order #2746 created. Init sub order.
+2023-06-18T12:32:07+00:00 DEBUG 1 vendor only, skipping sub order.
+2023-06-18T12:32:07+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: number_of_items_sold
+2023-06-18T12:32:07+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: number_of_orders
+2023-06-18T12:45:13+00:00 DEBUG Dokan Seller Badge: Invalid badge data. Badge Event: sale_amount
+2023-06-18T12:45:13+00:00 DEBUG New Order #2733 created. Init sub order.
+2023-06-18T12:45:13+00:00 DEBUG 1 vendor only, skipping sub order.

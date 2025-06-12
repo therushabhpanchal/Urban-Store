@@ -1,0 +1,862 @@
+0000.001 (0) Opened log file at time: Thu, 11 May 2023 08:13:49 +0000 on http://localhost/mystore
+0000.044 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.0.0 (apache2handler, Windows NT DESKTOP-QQJ868R 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 121.9M | 24M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.080 (0) Free space on disk containing Updraft's temporary directory: 262776.6 MB
+0000.122 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.254 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.353 (0) Set semaphore last lock (fd) time to 2023-05-11 08:13:49
+0000.394 (0) Semaphore lock (fd) complete
+0000.498 (0) Backup run: resumption=0, nonce=f5b61037f64c, file_nonce=f5b61037f64c begun at=1683792829 (1s ago), job type=backup
+0000.539 (0) Scheduling a resumption (1) after 300 seconds (1683793130) in case this run gets aborted
+0000.686 (0) Checking if we have a zip executable available
+0000.740 (0) Creation of backups of directories: beginning
+0000.929 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0027.889 (0) Total entities for the zip file: 3096 directories, 15704 files (0 skipped as non-modified), 201.7 MB
+0027.991 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0028.432 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 100 files added (on-disk size: 592 KB)
+0028.530 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 200 files added (on-disk size: 592 KB)
+0028.615 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 300 files added (on-disk size: 592 KB)
+0028.704 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 400 files added (on-disk size: 592 KB)
+0028.804 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 500 files added (on-disk size: 592 KB)
+0028.874 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 600 files added (on-disk size: 592 KB)
+0029.006 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 700 files added (on-disk size: 592 KB)
+0029.129 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 800 files added (on-disk size: 592 KB)
+0029.229 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 900 files added (on-disk size: 592 KB)
+0029.294 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1000 files added (on-disk size: 592 KB)
+0029.325 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.7 MB, 15704 files batched, 1001 (1002) added so far); re-opening (prior size: 592 KB)
+0060.738 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1100 files added (on-disk size: 8735.3 KB)
+0060.859 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1200 files added (on-disk size: 8735.3 KB)
+0060.933 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1300 files added (on-disk size: 8735.3 KB)
+0061.027 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1400 files added (on-disk size: 8735.3 KB)
+0061.121 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1500 files added (on-disk size: 8735.3 KB)
+0061.203 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1600 files added (on-disk size: 8735.3 KB)
+0061.303 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1700 files added (on-disk size: 8735.3 KB)
+0061.417 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1800 files added (on-disk size: 8735.3 KB)
+0061.510 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 1900 files added (on-disk size: 8735.3 KB)
+0061.627 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2000 files added (on-disk size: 8735.3 KB)
+0061.657 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.6 MB, 15704 files batched, 1001 (2003) added so far); re-opening (prior size: 8735.3 KB)
+0092.805 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2100 files added (on-disk size: 15809.6 KB)
+0092.901 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2200 files added (on-disk size: 15809.6 KB)
+0093.000 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2300 files added (on-disk size: 15809.6 KB)
+0093.103 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2400 files added (on-disk size: 15809.6 KB)
+0093.197 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2500 files added (on-disk size: 15809.6 KB)
+0093.270 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2600 files added (on-disk size: 15809.6 KB)
+0093.382 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2700 files added (on-disk size: 15809.6 KB)
+0093.466 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2800 files added (on-disk size: 15809.6 KB)
+0093.554 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 2900 files added (on-disk size: 15809.6 KB)
+0093.640 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3000 files added (on-disk size: 15809.6 KB)
+0093.700 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.8 MB, 15704 files batched, 1001 (3004) added so far); re-opening (prior size: 15809.6 KB)
+0126.190 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3100 files added (on-disk size: 18872 KB)
+0126.277 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3200 files added (on-disk size: 18872 KB)
+0126.388 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3300 files added (on-disk size: 18872 KB)
+0126.464 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3400 files added (on-disk size: 18872 KB)
+0126.567 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3500 files added (on-disk size: 18872 KB)
+0126.658 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3600 files added (on-disk size: 18872 KB)
+0126.768 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3700 files added (on-disk size: 18872 KB)
+0126.866 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3800 files added (on-disk size: 18872 KB)
+0126.965 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 3900 files added (on-disk size: 18872 KB)
+0127.055 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4000 files added (on-disk size: 18872 KB)
+0127.081 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4 MB, 15704 files batched, 1001 (4005) added so far); re-opening (prior size: 18872 KB)
+0160.486 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4100 files added (on-disk size: 20061.4 KB)
+0160.595 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4200 files added (on-disk size: 20061.4 KB)
+0160.773 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4300 files added (on-disk size: 20061.4 KB)
+0160.902 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4400 files added (on-disk size: 20061.4 KB)
+0161.051 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4500 files added (on-disk size: 20061.4 KB)
+0161.176 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4600 files added (on-disk size: 20061.4 KB)
+0161.350 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4700 files added (on-disk size: 20061.4 KB)
+0161.445 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4800 files added (on-disk size: 20061.4 KB)
+0161.536 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 4900 files added (on-disk size: 20061.4 KB)
+0161.638 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5000 files added (on-disk size: 20061.4 KB)
+0161.666 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.4 MB, 15704 files batched, 1001 (5006) added so far); re-opening (prior size: 20061.4 KB)
+0202.732 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5100 files added (on-disk size: 21408.2 KB)
+0202.849 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5200 files added (on-disk size: 21408.2 KB)
+0202.948 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5300 files added (on-disk size: 21408.2 KB)
+0203.055 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5400 files added (on-disk size: 21408.2 KB)
+0203.155 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5500 files added (on-disk size: 21408.2 KB)
+0203.322 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5600 files added (on-disk size: 21408.2 KB)
+0203.433 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5700 files added (on-disk size: 21408.2 KB)
+0203.541 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5800 files added (on-disk size: 21408.2 KB)
+0203.623 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 5900 files added (on-disk size: 21408.2 KB)
+0203.715 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6000 files added (on-disk size: 21408.2 KB)
+0203.751 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.9 MB, 15704 files batched, 1001 (6007) added so far); re-opening (prior size: 21408.2 KB)
+0251.563 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6100 files added (on-disk size: 25541.7 KB)
+0251.706 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6200 files added (on-disk size: 25541.7 KB)
+0251.885 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6300 files added (on-disk size: 25541.7 KB)
+0252.060 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6400 files added (on-disk size: 25541.7 KB)
+0252.252 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6500 files added (on-disk size: 25541.7 KB)
+0252.431 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6600 files added (on-disk size: 25541.7 KB)
+0252.569 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6700 files added (on-disk size: 25541.7 KB)
+0252.693 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6800 files added (on-disk size: 25541.7 KB)
+0252.824 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 6900 files added (on-disk size: 25541.7 KB)
+0252.982 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7000 files added (on-disk size: 25541.7 KB)
+0253.053 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.8 MB, 15704 files batched, 1001 (7008) added so far); re-opening (prior size: 25541.7 KB)
+0282.981 (0) The time we have been running (282.9) is approaching the resumption interval (300) - increasing resumption interval to 313
+0283.050 (0) The scheduled resumption is within 45 seconds - will reschedule
+0283.096 (0) Rescheduling resumption 1: moving to 358 seconds from now (1683793470)
+0283.191 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 313 + 45 = 358
+0283.439 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7100 files added (on-disk size: 31754.3 KB)
+0283.676 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7200 files added (on-disk size: 31754.3 KB)
+0283.818 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7300 files added (on-disk size: 31754.3 KB)
+0283.923 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7400 files added (on-disk size: 31754.3 KB)
+0284.012 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7500 files added (on-disk size: 31754.3 KB)
+0284.101 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7600 files added (on-disk size: 31754.3 KB)
+0284.186 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7700 files added (on-disk size: 31754.3 KB)
+0284.295 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7800 files added (on-disk size: 31754.3 KB)
+0284.383 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 7900 files added (on-disk size: 31754.3 KB)
+0284.887 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8000 files added (on-disk size: 31754.3 KB)
+0284.951 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.1 MB, 15704 files batched, 1001 (8009) added so far); re-opening (prior size: 31754.3 KB)
+0318.854 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8100 files added (on-disk size: 38825.2 KB)
+0318.965 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8200 files added (on-disk size: 38825.2 KB)
+0319.056 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8300 files added (on-disk size: 38825.2 KB)
+0319.161 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8400 files added (on-disk size: 38825.2 KB)
+0319.267 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8500 files added (on-disk size: 38825.2 KB)
+0319.362 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8600 files added (on-disk size: 38825.2 KB)
+0319.604 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8700 files added (on-disk size: 38825.2 KB)
+0319.748 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8800 files added (on-disk size: 38825.2 KB)
+0319.842 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 8900 files added (on-disk size: 38825.2 KB)
+0319.943 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9000 files added (on-disk size: 38825.2 KB)
+0319.989 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.5 MB, 15704 files batched, 1001 (9010) added so far); re-opening (prior size: 38825.2 KB)
+0352.907 (0) The time we have been running (352.8) is approaching the resumption interval (358) - increasing resumption interval to 383
+0353.299 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9100 files added (on-disk size: 41080.3 KB)
+0353.393 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9200 files added (on-disk size: 41080.3 KB)
+0353.483 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9300 files added (on-disk size: 41080.3 KB)
+0353.574 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9400 files added (on-disk size: 41080.3 KB)
+0353.677 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9500 files added (on-disk size: 41080.3 KB)
+0353.762 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9600 files added (on-disk size: 41080.3 KB)
+0353.862 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9700 files added (on-disk size: 41080.3 KB)
+0353.969 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9800 files added (on-disk size: 41080.3 KB)
+0354.055 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 9900 files added (on-disk size: 41080.3 KB)
+0354.147 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10000 files added (on-disk size: 41080.3 KB)
+0354.197 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.4 MB, 15704 files batched, 1001 (10011) added so far); re-opening (prior size: 41080.3 KB)
+0387.206 (0) The time we have been running (387.1) is approaching the resumption interval (383) - increasing resumption interval to 418
+0387.526 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10100 files added (on-disk size: 44734.7 KB)
+0387.623 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10200 files added (on-disk size: 44734.7 KB)
+0387.696 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10300 files added (on-disk size: 44734.7 KB)
+0387.806 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10400 files added (on-disk size: 44734.7 KB)
+0387.884 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10500 files added (on-disk size: 44734.7 KB)
+0387.982 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10600 files added (on-disk size: 44734.7 KB)
+0388.069 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10700 files added (on-disk size: 44734.7 KB)
+0388.176 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10800 files added (on-disk size: 44734.7 KB)
+0388.278 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 10900 files added (on-disk size: 44734.7 KB)
+0388.503 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11000 files added (on-disk size: 44734.7 KB)
+0388.590 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 15704 files batched, 1001 (11012) added so far); re-opening (prior size: 44734.7 KB)
+0424.981 (0) The time we have been running (424.9) is approaching the resumption interval (418) - increasing resumption interval to 455
+0425.432 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11100 files added (on-disk size: 47894.9 KB)
+0425.538 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11200 files added (on-disk size: 47894.9 KB)
+0425.651 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11300 files added (on-disk size: 47894.9 KB)
+0425.768 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11400 files added (on-disk size: 47894.9 KB)
+0425.883 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11500 files added (on-disk size: 47894.9 KB)
+0426.010 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11600 files added (on-disk size: 47894.9 KB)
+0426.123 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11700 files added (on-disk size: 47894.9 KB)
+0426.242 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11800 files added (on-disk size: 47894.9 KB)
+0426.362 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 11900 files added (on-disk size: 47894.9 KB)
+0426.479 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12000 files added (on-disk size: 47894.9 KB)
+0426.534 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.7 MB, 15704 files batched, 1001 (12013) added so far); re-opening (prior size: 47894.9 KB)
+0447.420 (0) The time we have been running (447.3) is approaching the resumption interval (455) - increasing resumption interval to 478
+0447.819 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12100 files added (on-disk size: 48926.3 KB)
+0447.920 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12200 files added (on-disk size: 48926.3 KB)
+0448.029 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12300 files added (on-disk size: 48926.3 KB)
+0448.116 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12400 files added (on-disk size: 48926.3 KB)
+0448.228 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12500 files added (on-disk size: 48926.3 KB)
+0448.324 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12600 files added (on-disk size: 48926.3 KB)
+0448.419 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12700 files added (on-disk size: 48926.3 KB)
+0448.560 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12800 files added (on-disk size: 48926.3 KB)
+0448.646 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 12900 files added (on-disk size: 48926.3 KB)
+0448.736 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13000 files added (on-disk size: 48926.3 KB)
+0448.825 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.5 MB, 15704 files batched, 1001 (13014) added so far); re-opening (prior size: 48926.3 KB)
+0467.464 (0) The time we have been running (467.3) is approaching the resumption interval (478) - increasing resumption interval to 498
+0467.964 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13100 files added (on-disk size: 51535.7 KB)
+0468.075 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13200 files added (on-disk size: 51535.7 KB)
+0468.170 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13300 files added (on-disk size: 51535.7 KB)
+0468.275 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13400 files added (on-disk size: 51535.7 KB)
+0468.543 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13500 files added (on-disk size: 51535.7 KB)
+0468.643 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13600 files added (on-disk size: 51535.7 KB)
+0468.764 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13700 files added (on-disk size: 51535.7 KB)
+0468.857 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13800 files added (on-disk size: 51535.7 KB)
+0468.970 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 13900 files added (on-disk size: 51535.7 KB)
+0469.058 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14000 files added (on-disk size: 51535.7 KB)
+0469.095 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.6 MB, 15704 files batched, 1001 (14015) added so far); re-opening (prior size: 51535.7 KB)
+0490.382 (0) The time we have been running (490.3) is approaching the resumption interval (498) - increasing resumption interval to 521
+0490.832 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14100 files added (on-disk size: 52947.9 KB)
+0490.949 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14200 files added (on-disk size: 52947.9 KB)
+0491.052 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14300 files added (on-disk size: 52947.9 KB)
+0491.146 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14400 files added (on-disk size: 52947.9 KB)
+0491.244 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14500 files added (on-disk size: 52947.9 KB)
+0491.375 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14600 files added (on-disk size: 52947.9 KB)
+0491.466 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 15704 files batched, 685 (14700) added so far); re-opening (prior size: 52947.9 KB)
+0517.080 (0) The time we have been running (517) is approaching the resumption interval (521) - increasing resumption interval to 547
+0517.155 (0) A useful amount of data was added after this amount of zip processing: 26.8 s (normalised: 26.8 s, rate: 955.5 KB/s)
+0517.204 (0) Performance is good - will increase the amount of data we attempt to batch (time=26.79337310791, normalised_time=26.792511517059, max_time=517.17896604538, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0517.361 (0) The time we have been running (517.3) is approaching the resumption interval (547) - increasing resumption interval to 548
+0517.411 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14700 files added (on-disk size: 62575.3 KB)
+0517.881 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14800 files added (on-disk size: 62575.3 KB)
+0517.988 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 14900 files added (on-disk size: 62575.3 KB)
+0518.099 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15000 files added (on-disk size: 62575.3 KB)
+0518.197 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15100 files added (on-disk size: 62575.3 KB)
+0518.303 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15200 files added (on-disk size: 62575.3 KB)
+0518.398 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15300 files added (on-disk size: 62575.3 KB)
+0518.501 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15400 files added (on-disk size: 62575.3 KB)
+0518.605 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15500 files added (on-disk size: 62575.3 KB)
+0518.728 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15600 files added (on-disk size: 62575.3 KB)
+0518.836 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.tmp: 15700 files added (on-disk size: 62575.3 KB)
+0518.885 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16 MB, 15704 files batched, 1001 (15701) added so far); re-opening (prior size: 62575.3 KB)
+0551.743 (0) The time we have been running (551.6) is approaching the resumption interval (548) - increasing resumption interval to 582
+0554.412 (0) The time we have been running (554.3) is approaching the resumption interval (582) - increasing resumption interval to 585
+0554.969 (0) Creating zip file manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.list-temp.tmp)
+0555.272 (0) Successfully created zip file manifest (size: 1458302)
+0558.554 (0) Created plugins zip (0) - 69404.7 KB in 557.5 s (124.5 KB/s) (sha1: e32e6b51d6d80037abba166d64d5d98dd07c8112, sha256: 6c7a07c9fad6faf26db57583915d1394dacd6c57c0f00b79f08c09fa9d6e332e)
+0558.676 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0558.711 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-42d41c0e1243ac69f6adff393ae65c0d)
+0561.420 (0) Google Drive: quota usage: used=551.9 MB, total=15360 MB, available=14808.1 MB
+0561.445 (0) Google Drive: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip: Attempting to upload to Google Drive (into folder id: 1UEopTjs8lbVvZcZaEDF4FfvOIUZ3EgCr)
+0563.484 (0) The time we have been running (563.3) is approaching the resumption interval (585) - increasing resumption interval to 594
+0563.620 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 126.9 / 32)
+0564.814 (0) The time we have been running (564.6) is approaching the resumption interval (594) - increasing resumption interval to 595
+0564.877 (0) Googledrive chunked upload: 4.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 126.9 / 32)
+0566.930 (0) The time we have been running (566.8) is approaching the resumption interval (595) - increasing resumption interval to 597
+0567.001 (0) Googledrive chunked upload: 10.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 126.9 / 32)
+0569.804 (0) The time we have been running (569.6) is approaching the resumption interval (597) - increasing resumption interval to 600
+0569.876 (0) Googledrive chunked upload: 22.1 % uploaded (15728640)
+0572.612 (0) The time we have been running (572.5) is approaching the resumption interval (600) - increasing resumption interval to 603
+0572.705 (0) Googledrive chunked upload: 33.9 % uploaded (24117248)
+0575.368 (0) The time we have been running (575.2) is approaching the resumption interval (603) - increasing resumption interval to 606
+0575.426 (0) Googledrive chunked upload: 45.7 % uploaded (32505856 - increasing chunk size to 16384 KB - memory usage: 126.9 / 32)
+0580.831 (0) The time we have been running (580.8) is approaching the resumption interval (606) - increasing resumption interval to 611
+0580.881 (0) Googledrive chunked upload: 69.3 % uploaded (49283072)
+0584.566 (0) The time we have been running (584.4) is approaching the resumption interval (611) - increasing resumption interval to 615
+0584.628 (0) Googledrive chunked upload: 93 % uploaded (66060288)
+0587.947 (0) The time we have been running (587.8) is approaching the resumption interval (615) - increasing resumption interval to 618
+0587.988 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0588.071 (0) Google Drive: OK: Archive backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip uploaded in 26.61 seconds
+0588.091 (0) Recording as successfully uploaded: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip
+0588.142 (0) Deleting local file: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip: OK
+0588.215 (0) Beginning creation of dump of themes (split every: 400 MB)
+0589.265 (0) Total entities for the zip file: 140 directories, 792 files (0 skipped as non-modified), 21 MB
+0589.370 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0589.467 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0589.557 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0589.705 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0589.858 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0589.947 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0590.028 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0620.678 (0) The time we have been running (620.5) is approaching the resumption interval (618) - increasing resumption interval to 651
+0620.740 (0) The scheduled resumption is within 45 seconds - will reschedule
+0620.806 (0) Rescheduling resumption 1: moving to 696 seconds from now (1683794146)
+0620.899 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 651 + 45 = 696
+0620.937 (0) Creating zip file manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.list-temp.tmp)
+0621.019 (0) Successfully created zip file manifest (size: 55544)
+0621.596 (0) Created themes zip (0) - 7203.4 KB in 33.3 s (216.2 KB/s) (sha1: 010c2db92f07f6e2b093f1fe0af5f3292ed43891, sha256: 91bf92e4492e597bc8eacd4fe00575085d820fb418263438a470b99b928a6123)
+0621.687 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0621.716 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-42d41c0e1243ac69f6adff393ae65c0d)
+0622.366 (0) Google Drive: quota usage: used=619.6 MB, total=15360 MB, available=14740.4 MB
+0622.407 (0) Google Drive: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip: Attempting to upload to Google Drive (into folder id: 1UEopTjs8lbVvZcZaEDF4FfvOIUZ3EgCr)
+0624.069 (0) Googledrive chunked upload: 14.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 124.6 / 32)
+0625.776 (0) Googledrive chunked upload: 42.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 124.6 / 32)
+0627.378 (0) Googledrive chunked upload: 99.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 124.6 / 32)
+0629.201 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0629.322 (0) Google Drive: OK: Archive backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip uploaded in 6.88 seconds
+0629.378 (0) Recording as successfully uploaded: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip
+0629.462 (0) Deleting local file: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip: OK
+0629.522 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0629.558 (0) Looking for candidates to backup in: D:\xampp\htdocs\mystore/wp-content/uploads
+0629.600 (0) finding files: 2018: adding to list (1)
+0629.636 (0) finding files: 2019: adding to list (2)
+0629.690 (0) finding files: 2020: adding to list (3)
+0629.719 (0) finding files: 2021: adding to list (4)
+0629.742 (0) finding files: 2023: adding to list (5)
+0629.769 (0) finding files: astra-sites: adding to list (6)
+0629.783 (0) finding files: dokan-mangopay-temp: adding to list (7)
+0629.810 (0) finding files: elementor: adding to list (8)
+0629.832 (0) finding files: oceanwp-webfonts: adding to list (9)
+0629.859 (0) finding files: oceanwp-webfonts-css: adding to list (10)
+0629.882 (0) finding files: verification: adding to list (11)
+0629.909 (0) finding files: wc-logs: adding to list (12)
+0629.931 (0) finding files: woocommerce-placeholder.png: adding to list (13)
+0629.958 (0) finding files: woocommerce_uploads: adding to list (14)
+0629.989 (0) finding files: wpforms: adding to list (15)
+0630.026 (0) finding files: wpo_wcpdf_9e21170fb1ae695c3797fd518a872792: adding to list (16)
+0630.066 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0630.987 (0) Total entities for the zip file: 34 directories, 489 files (0 skipped as non-modified), 19.8 MB
+0631.275 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0631.779 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0632.009 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0632.127 (0) Zip: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0641.205 (0) Creating zip file manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.list-temp.tmp)
+0641.273 (0) Successfully created zip file manifest (size: 27286)
+0641.948 (0) Created uploads zip (0) - 15057.5 KB in 11.8 s (1279 KB/s) (sha1: 62eecbf2b561543339639604938ff04d7658a216, sha256: f31d57a62690b32636f4045d4e20606324295e45935a6926cbaff8b2aa50d8d2)
+0642.039 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0642.063 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-42d41c0e1243ac69f6adff393ae65c0d)
+0642.654 (0) Google Drive: quota usage: used=626.7 MB, total=15360 MB, available=14733.3 MB
+0642.698 (0) Google Drive: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip: Attempting to upload to Google Drive (into folder id: 1UEopTjs8lbVvZcZaEDF4FfvOIUZ3EgCr)
+0644.303 (0) Googledrive chunked upload: 6.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 124.6 / 32)
+0645.547 (0) Googledrive chunked upload: 20.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 124.6 / 32)
+0646.749 (0) Googledrive chunked upload: 47.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 124.6 / 32)
+0650.077 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0650.184 (0) Google Drive: OK: Archive backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip uploaded in 7.45 seconds
+0650.207 (0) Recording as successfully uploaded: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip
+0650.277 (0) Deleting local file: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip: OK
+0650.414 (0) Beginning backup of other directories found in the content directory (index: 0)
+0650.438 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0650.463 (0) Looking for candidates to backup in: D:\xampp\htdocs\mystore/wp-content
+0650.509 (0) finding files: index.php: adding to list (1)
+0650.537 (0) finding files: mu-plugins: adding to list (2)
+0650.562 (0) finding files: plugins: skipping: this is the plugins directory
+0650.587 (0) finding files: themes: skipping: this is the themes directory
+0650.628 (0) finding files: updraft: skipping: this is the updraft directory
+0650.644 (0) finding files: upgrade: skipping: excluded by options
+0650.670 (0) finding files: uploads: skipping: this is the uploads directory
+0650.758 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0650.835 (0) Creating zip file manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip.list-temp.tmp)
+0650.868 (0) Successfully created zip file manifest (size: 88)
+0650.981 (0) Created others zip (0) - 1.9 KB in 0.2 s (8.4 KB/s) (sha1: e53b862b19293318db2bbe3d86b667380ce23c40, sha256: 448e6e6da9381829f2c7716f8bcfeb022b228681637f341bb329ca5bda40bcdd)
+0651.048 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0651.082 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-42d41c0e1243ac69f6adff393ae65c0d)
+0651.663 (0) Google Drive: quota usage: used=641.4 MB, total=15360 MB, available=14718.6 MB
+0651.698 (0) Google Drive: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip: Attempting to upload to Google Drive (into folder id: 1UEopTjs8lbVvZcZaEDF4FfvOIUZ3EgCr)
+0654.367 (0) Googledrive chunked upload: 100 % uploaded
+0654.482 (0) Google Drive: OK: Archive backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip uploaded in 2.75 seconds
+0654.540 (0) Recording as successfully uploaded: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip
+0654.623 (0) Deleting local file: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip: OK
+0654.796 (0) Saving backup status to database (elements: 8)
+0654.845 (0) Beginning creation of database dump (WordPress DB)
+0654.869 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0656.149 (0) Table wp_options: Total expected rows (via COUNT): 823
+0656.664 (0) Table wp_options: Rows added in this batch (next record: 5540): 819 (uncompressed bytes in this segment=7907619) in 1.08 seconds
+0657.072 (0) Table wp_options: finishing file(s) (2, 759.2 KB)
+0657.209 (0) Table wp_users: Total expected rows (via COUNT): 9
+0657.285 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0657.375 (0) Table wp_users: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=2797) in 0.22 seconds
+0657.535 (0) Table wp_users: finishing file(s) (2, 1.1 KB)
+0657.883 (0) Table wp_usermeta: Total expected rows (via COUNT): 269
+0657.928 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0657.979 (0) Table wp_usermeta: Rows added in this batch (next record: 349): 269 (uncompressed bytes in this segment=37417) in 0.36 seconds
+0658.126 (0) Table wp_usermeta: finishing file(s) (2, 7.1 KB)
+0658.257 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 195
+0658.278 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0658.336 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 358): 195 (uncompressed bytes in this segment=78107) in 0.16 seconds
+0658.617 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 6.9 KB)
+0658.754 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0658.843 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.14 seconds
+0658.938 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0659.007 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 7
+0659.044 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0659.094 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=882) in 0.10 seconds
+0659.174 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0659.313 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 565
+0659.421 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1036): 565 (uncompressed bytes in this segment=51196) in 0.13 seconds
+0659.495 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 6.2 KB)
+0659.604 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0659.918 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.38 seconds
+0660.034 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0660.175 (0) Table wp_comments: Total expected rows (via COUNT): 15
+0660.216 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0660.326 (0) Table wp_comments: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=5115) in 0.17 seconds
+0660.441 (0) Table wp_comments: finishing file(s) (2, 1.2 KB)
+0660.578 (0) Table wp_links: Total expected rows (via COUNT): 0
+0660.722 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.17 seconds
+0660.974 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0661.439 (0) Table wp_postmeta: Total expected rows (approximate): 4797
+0662.336 (0) Table wp_postmeta: Rows added in this batch (next record: 6794): 4889 (uncompressed bytes in this segment=7623443) in 1.28 seconds
+0662.490 (0) Table wp_postmeta: finishing file(s) (2, 805.9 KB)
+0662.729 (0) Table wp_posts: Total expected rows (via COUNT): 413
+0662.767 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0662.972 (0) Table wp_posts: Rows added in this batch (next record: 2745): 413 (uncompressed bytes in this segment=877326) in 0.40 seconds
+0663.121 (0) Table wp_posts: finishing file(s) (2, 43.8 KB)
+0663.206 (0) Table wp_term_relationships: Total expected rows (approximate): 104
+0663.464 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 104 (uncompressed bytes in this segment=2316) in 0.28 seconds
+0663.724 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0663.870 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 45
+0663.895 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0663.947 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 49): 45 (uncompressed bytes in this segment=2545) in 0.16 seconds
+0664.069 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0664.208 (0) Table wp_termmeta: Total expected rows (via COUNT): 63
+0664.258 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0664.334 (0) Table wp_termmeta: Rows added in this batch (next record: 71): 63 (uncompressed bytes in this segment=3126) in 0.20 seconds
+0664.563 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0664.639 (0) Table wp_terms: Total expected rows (via COUNT): 45
+0664.689 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0664.778 (0) Table wp_terms: Rows added in this batch (next record: 49): 45 (uncompressed bytes in this segment=2223) in 0.16 seconds
+0664.877 (0) Table wp_terms: finishing file(s) (2, 1 KB)
+0665.081 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 12
+0665.147 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=711) in 0.07 seconds
+0665.231 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0665.363 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 78
+0665.395 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0665.897 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 2745): 78 (uncompressed bytes in this segment=9221) in 0.60 seconds
+0666.176 (0) The time we have been running (666) is approaching the resumption interval (696) - increasing resumption interval to 697
+0666.236 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.5 KB)
+0666.354 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0666.638 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.31 seconds
+0666.827 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0666.951 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 7
+0667.060 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0667.231 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 9): 7 (uncompressed bytes in this segment=939) in 0.29 seconds
+0667.397 (0) The time we have been running (667.3) is approaching the resumption interval (697) - increasing resumption interval to 698
+0667.521 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0667.755 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 249
+0667.792 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0668.222 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 249): 249 (uncompressed bytes in this segment=14021) in 0.65 seconds
+0668.551 (0) The time we have been running (668.4) is approaching the resumption interval (698) - increasing resumption interval to 699
+0668.672 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 2.6 KB)
+0668.959 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0669.022 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.14 seconds
+0669.148 (0) The time we have been running (669.1) is approaching the resumption interval (699) - increasing resumption interval to 700
+0669.215 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0669.299 (0) Table wp_cartflows_ca_cart_abandonment: Total expected rows (approximate): 1
+0669.621 (0) Table wp_cartflows_ca_cart_abandonment: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2638) in 0.35 seconds
+0669.872 (0) Table wp_cartflows_ca_cart_abandonment: finishing file(s) (2, 1.1 KB)
+0670.052 (0) Table wp_cartflows_ca_email_history: Total expected rows (via COUNT): 0
+0670.169 (0) Table wp_cartflows_ca_email_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1156) in 0.20 seconds
+0670.301 (0) The time we have been running (670.2) is approaching the resumption interval (700) - increasing resumption interval to 701
+0670.377 (0) Table wp_cartflows_ca_email_history: finishing file(s) (2, 0.5 KB)
+0670.472 (0) Table wp_cartflows_ca_email_templates: Total expected rows (via COUNT): 3
+0670.512 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.694 (0) Table wp_cartflows_ca_email_templates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2738) in 0.26 seconds
+0670.781 (0) Table wp_cartflows_ca_email_templates: finishing file(s) (2, 1.2 KB)
+0670.942 (0) Table wp_cartflows_ca_email_templates_meta: Total expected rows (via COUNT): 18
+0671.010 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0671.059 (0) Table wp_cartflows_ca_email_templates_meta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1674) in 0.15 seconds
+0671.223 (0) The time we have been running (671.1) is approaching the resumption interval (701) - increasing resumption interval to 702
+0671.654 (0) Table wp_cartflows_ca_email_templates_meta: finishing file(s) (2, 0.6 KB)
+0672.028 (0) Table wp_dokan_advertised_products: Total expected rows (via COUNT): 0
+0672.131 (0) Table wp_dokan_advertised_products: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1146) in 0.14 seconds
+0672.260 (0) The time we have been running (672.2) is approaching the resumption interval (702) - increasing resumption interval to 703
+0672.356 (0) Table wp_dokan_advertised_products: finishing file(s) (2, 0.5 KB)
+0672.485 (0) Table wp_dokan_announcement: Total expected rows (via COUNT): 0
+0672.558 (0) Table wp_dokan_announcement: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.09 seconds
+0672.675 (0) Table wp_dokan_announcement: finishing file(s) (2, 0.4 KB)
+0672.781 (0) Table wp_dokan_delivery_time: Total expected rows (via COUNT): 0
+0672.816 (0) Table wp_dokan_delivery_time: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=960) in 0.04 seconds
+0673.323 (0) The time we have been running (673) is approaching the resumption interval (703) - increasing resumption interval to 704
+0673.399 (0) Table wp_dokan_delivery_time: finishing file(s) (2, 0.4 KB)
+0673.545 (0) Table wp_dokan_distance_rate_shipping: Total expected rows (via COUNT): 0
+0673.627 (0) Table wp_dokan_distance_rate_shipping: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1253) in 0.11 seconds
+0673.785 (0) Table wp_dokan_distance_rate_shipping: finishing file(s) (2, 0.5 KB)
+0674.267 (0) Table wp_dokan_follow_store_followers: Total expected rows (via COUNT): 1
+0674.341 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0674.395 (0) Table wp_dokan_follow_store_followers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1029) in 0.15 seconds
+0674.502 (0) The time we have been running (674.4) is approaching the resumption interval (704) - increasing resumption interval to 705
+0674.568 (0) Table wp_dokan_follow_store_followers: finishing file(s) (2, 0.5 KB)
+0674.670 (0) Table wp_dokan_orders: Total expected rows (via COUNT): 7
+0674.708 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0674.733 (0) Table wp_dokan_orders: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1176) in 0.08 seconds
+0674.849 (0) Table wp_dokan_orders: finishing file(s) (2, 0.5 KB)
+0674.938 (0) Table wp_dokan_product_map: Total expected rows (via COUNT): 0
+0675.038 (0) Table wp_dokan_product_map: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.11 seconds
+0675.375 (0) The time we have been running (675.1) is approaching the resumption interval (705) - increasing resumption interval to 706
+0675.512 (0) Table wp_dokan_product_map: finishing file(s) (2, 0.3 KB)
+0675.626 (0) Table wp_dokan_refund: Total expected rows (via COUNT): 0
+0675.664 (0) Table wp_dokan_refund: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1076) in 0.07 seconds
+0675.764 (0) Table wp_dokan_refund: finishing file(s) (2, 0.5 KB)
+0675.842 (0) Table wp_dokan_report_abuse_reports: Total expected rows (via COUNT): 0
+0675.877 (0) Table wp_dokan_report_abuse_reports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1036) in 0.04 seconds
+0675.978 (0) Table wp_dokan_report_abuse_reports: finishing file(s) (2, 0.4 KB)
+0676.062 (0) Table wp_dokan_request_quote_details: Total expected rows (via COUNT): 0
+0676.103 (0) Table wp_dokan_request_quote_details: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.05 seconds
+0676.487 (0) The time we have been running (676.2) is approaching the resumption interval (706) - increasing resumption interval to 707
+0676.640 (0) Table wp_dokan_request_quote_details: finishing file(s) (2, 0.4 KB)
+0676.852 (0) Table wp_dokan_request_quote_rules: Total expected rows (via COUNT): 0
+0676.942 (0) Table wp_dokan_request_quote_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1209) in 0.19 seconds
+0677.097 (0) The time we have been running (677) is approaching the resumption interval (707) - increasing resumption interval to 708
+0677.165 (0) Table wp_dokan_request_quote_rules: finishing file(s) (2, 0.5 KB)
+0677.312 (0) Table wp_dokan_request_quotes: Total expected rows (via COUNT): 0
+0677.335 (0) Table wp_dokan_request_quotes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=940) in 0.08 seconds
+0677.653 (0) Table wp_dokan_request_quotes: finishing file(s) (2, 0.4 KB)
+0677.952 (0) Table wp_dokan_reverse_withdrawal: Total expected rows (via COUNT): 0
+0678.007 (0) Table wp_dokan_reverse_withdrawal: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1130) in 0.10 seconds
+0678.157 (0) The time we have been running (678) is approaching the resumption interval (708) - increasing resumption interval to 709
+0678.217 (0) Table wp_dokan_reverse_withdrawal: finishing file(s) (2, 0.5 KB)
+0678.366 (0) Table wp_dokan_rma_conversations: Total expected rows (via COUNT): 0
+0678.389 (0) Table wp_dokan_rma_conversations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.07 seconds
+0678.715 (0) Table wp_dokan_rma_conversations: finishing file(s) (2, 0.3 KB)
+0679.047 (0) Table wp_dokan_rma_request: Total expected rows (via COUNT): 0
+0679.080 (0) Table wp_dokan_rma_request: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.11 seconds
+0679.262 (0) The time we have been running (679.2) is approaching the resumption interval (709) - increasing resumption interval to 710
+0679.396 (0) Table wp_dokan_rma_request: finishing file(s) (2, 0.4 KB)
+0679.540 (0) Table wp_dokan_rma_request_product: Total expected rows (via COUNT): 0
+0679.606 (0) Table wp_dokan_rma_request_product: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.10 seconds
+0679.765 (0) Table wp_dokan_rma_request_product: finishing file(s) (2, 0.3 KB)
+0680.228 (0) Table wp_dokan_seller_badge: Total expected rows (via COUNT): 0
+0680.288 (0) Table wp_dokan_seller_badge: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=919) in 0.08 seconds
+0680.398 (0) The time we have been running (680.3) is approaching the resumption interval (710) - increasing resumption interval to 711
+0680.469 (0) Table wp_dokan_seller_badge: finishing file(s) (2, 0.4 KB)
+0680.562 (0) Table wp_dokan_seller_badge_acquired: Total expected rows (via COUNT): 0
+0680.601 (0) Table wp_dokan_seller_badge_acquired: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=994) in 0.05 seconds
+0680.678 (0) Table wp_dokan_seller_badge_acquired: finishing file(s) (2, 0.5 KB)
+0680.830 (0) Table wp_dokan_seller_badge_level: Total expected rows (via COUNT): 0
+0680.882 (0) Table wp_dokan_seller_badge_level: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=764) in 0.06 seconds
+0680.990 (0) Table wp_dokan_seller_badge_level: finishing file(s) (2, 0.4 KB)
+0681.109 (0) Table wp_dokan_shipping_tracking: Total expected rows (via COUNT): 0
+0681.205 (0) Table wp_dokan_shipping_tracking: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1117) in 0.13 seconds
+0681.631 (0) The time we have been running (681.5) is approaching the resumption interval (711) - increasing resumption interval to 712
+0681.698 (0) Table wp_dokan_shipping_tracking: finishing file(s) (2, 0.5 KB)
+0681.841 (0) Table wp_dokan_shipping_zone_locations: Total expected rows (via COUNT): 29
+0681.908 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0681.970 (0) Table wp_dokan_shipping_zone_locations: Rows added in this batch (next record: 191): 29 (uncompressed bytes in this segment=1650) in 0.15 seconds
+0682.076 (0) The time we have been running (682) is approaching the resumption interval (712) - increasing resumption interval to 713
+0682.128 (0) Table wp_dokan_shipping_zone_locations: finishing file(s) (2, 0.6 KB)
+0682.349 (0) Table wp_dokan_shipping_zone_methods: Total expected rows (via COUNT): 2
+0682.514 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0682.589 (0) Table wp_dokan_shipping_zone_methods: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=1218) in 0.31 seconds
+0682.713 (0) Table wp_dokan_shipping_zone_methods: finishing file(s) (2, 0.6 KB)
+0682.873 (0) Table wp_dokan_table_rate_shipping: Total expected rows (via COUNT): 0
+0682.926 (0) Table wp_dokan_table_rate_shipping: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1530) in 0.14 seconds
+0683.017 (0) Table wp_dokan_table_rate_shipping: finishing file(s) (2, 0.5 KB)
+0683.115 (0) Table wp_dokan_vendor_balance: Total expected rows (via COUNT): 7
+0683.148 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0683.268 (0) Table wp_dokan_vendor_balance: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1946) in 0.16 seconds
+0683.709 (0) The time we have been running (683.4) is approaching the resumption interval (713) - increasing resumption interval to 714
+0683.843 (0) Table wp_dokan_vendor_balance: finishing file(s) (2, 0.7 KB)
+0684.007 (0) Table wp_dokan_withdraw: Total expected rows (via COUNT): 0
+0684.081 (0) Table wp_dokan_withdraw: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.17 seconds
+0684.227 (0) The time we have been running (684.2) is approaching the resumption interval (714) - increasing resumption interval to 715
+0684.337 (0) Table wp_dokan_withdraw: finishing file(s) (2, 0.4 KB)
+0684.806 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0684.880 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.09 seconds
+0685.084 (0) The time we have been running (685) is approaching the resumption interval (715) - increasing resumption interval to 716
+0685.151 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0685.344 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 89
+0685.388 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0685.448 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1951): 89 (uncompressed bytes in this segment=18890) in 0.18 seconds
+0685.603 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3 KB)
+0686.196 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 69
+0686.244 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0686.279 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 69): 69 (uncompressed bytes in this segment=33547) in 0.35 seconds
+0686.532 (0) The time we have been running (686.3) is approaching the resumption interval (716) - increasing resumption interval to 717
+0686.705 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.8 KB)
+0686.849 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 1
+0686.893 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0687.441 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1496) in 0.63 seconds
+0687.941 (0) The time we have been running (687.7) is approaching the resumption interval (717) - increasing resumption interval to 718
+0688.023 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0688.437 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0688.502 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.08 seconds
+0688.608 (0) The time we have been running (688.5) is approaching the resumption interval (718) - increasing resumption interval to 719
+0688.699 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0688.783 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0688.861 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.09 seconds
+0688.988 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0689.084 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 10
+0689.118 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0689.279 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 24): 10 (uncompressed bytes in this segment=2202) in 0.21 seconds
+0689.571 (0) The time we have been running (689.4) is approaching the resumption interval (719) - increasing resumption interval to 720
+0689.681 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.7 KB)
+0689.825 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 7
+0689.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0689.911 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 2733): 7 (uncompressed bytes in this segment=2292) in 0.12 seconds
+0690.106 (0) The time we have been running (690) is approaching the resumption interval (720) - increasing resumption interval to 721
+0690.190 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.8 KB)
+0690.258 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 8
+0690.355 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=1415) in 0.10 seconds
+0690.741 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.6 KB)
+0690.949 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 22
+0691.003 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1850) in 0.07 seconds
+0691.194 (0) The time we have been running (691.1) is approaching the resumption interval (721) - increasing resumption interval to 722
+0691.276 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.6 KB)
+0691.337 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0691.401 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0691.537 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=912) in 0.20 seconds
+0691.631 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0691.795 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 1
+0691.861 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0691.896 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=799) in 0.13 seconds
+0692.002 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0692.107 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0692.241 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1226) in 0.15 seconds
+0692.355 (0) The time we have been running (692.3) is approaching the resumption interval (722) - increasing resumption interval to 723
+0692.455 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0692.564 (0) Table wp_wcpdf_invoice_number: Total expected rows (via COUNT): 6
+0692.596 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0692.644 (0) Table wp_wcpdf_invoice_number: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=907) in 0.10 seconds
+0692.744 (0) Table wp_wcpdf_invoice_number: finishing file(s) (2, 0.5 KB)
+0693.159 (0) Table wp_wcrw_request_notes: Total expected rows (via COUNT): 0
+0693.296 (0) Table wp_wcrw_request_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.26 seconds
+0693.418 (0) The time we have been running (693.3) is approaching the resumption interval (723) - increasing resumption interval to 724
+0693.504 (0) Table wp_wcrw_request_notes: finishing file(s) (2, 0.3 KB)
+0693.585 (0) Table wp_wcrw_request_product_map: Total expected rows (via COUNT): 3
+0693.653 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.731 (0) Table wp_wcrw_request_product_map: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=736) in 0.17 seconds
+0694.020 (0) Table wp_wcrw_request_product_map: finishing file(s) (2, 0.4 KB)
+0694.440 (0) Table wp_wcrw_warranty_requests: Total expected rows (via COUNT): 2
+0694.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0694.542 (0) Table wp_wcrw_warranty_requests: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=899) in 0.18 seconds
+0694.729 (0) The time we have been running (694.6) is approaching the resumption interval (724) - increasing resumption interval to 725
+0694.861 (0) Table wp_wcrw_warranty_requests: finishing file(s) (2, 0.5 KB)
+0695.019 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0695.225 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.27 seconds
+0695.525 (0) The time we have been running (695.4) is approaching the resumption interval (725) - increasing resumption interval to 726
+0695.630 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0695.726 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 3
+0695.780 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0695.877 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1194) in 0.17 seconds
+0695.976 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0696.116 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0696.214 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1534) in 0.11 seconds
+0696.560 (0) The time we have been running (696.4) is approaching the resumption interval (726) - increasing resumption interval to 727
+0696.654 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0696.880 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0696.915 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.11 seconds
+0697.104 (0) The time we have been running (697) is approaching the resumption interval (727) - increasing resumption interval to 728
+0697.173 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0697.245 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 27
+0697.296 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0697.355 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=1922) in 0.13 seconds
+0697.560 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.7 KB)
+0697.765 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0697.881 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.14 seconds
+0697.972 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0698.070 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 7
+0698.120 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0698.171 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 253): 7 (uncompressed bytes in this segment=9019) in 0.15 seconds
+0698.383 (0) The time we have been running (698.3) is approaching the resumption interval (728) - increasing resumption interval to 729
+0698.474 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.4 KB)
+0698.916 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0699.017 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0699.070 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=977) in 0.35 seconds
+0699.223 (0) The time we have been running (699.1) is approaching the resumption interval (729) - increasing resumption interval to 730
+0699.349 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0699.483 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0699.519 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0699.546 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=888) in 0.11 seconds
+0699.726 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0699.888 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0699.956 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0699.981 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=719) in 0.18 seconds
+0700.244 (0) The time we have been running (700.1) is approaching the resumption interval (730) - increasing resumption interval to 731
+0700.657 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0700.813 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0700.914 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.17 seconds
+0701.389 (0) The time we have been running (701.2) is approaching the resumption interval (731) - increasing resumption interval to 732
+0701.480 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0701.568 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 5
+0701.613 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0701.695 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1643) in 0.16 seconds
+0701.860 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.6 KB)
+0702.042 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0702.081 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0702.123 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 12): 4 (uncompressed bytes in this segment=975) in 0.13 seconds
+0702.327 (0) The time we have been running (702.2) is approaching the resumption interval (732) - increasing resumption interval to 733
+0702.593 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0702.646 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\xampp\htdocs\mystore/wp-content/updraft/backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz (line 1924, D:\xampp\htdocs\mystore\wp-content\plugins\updraftplus\backup.php)
+0702.684 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_options.table.tmpr5541.gz (1/81/fopen): adding to final database dump
+0702.780 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_options.table.gz (2/81/fopen): adding to final database dump
+0702.806 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_users.table.tmpr10.gz (3/81/fopen): adding to final database dump
+0702.832 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_users.table.gz (4/81/fopen): adding to final database dump
+0702.881 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_usermeta.table.tmpr350.gz (5/81/fopen): adding to final database dump
+0702.905 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_usermeta.table.gz (6/81/fopen): adding to final database dump
+0702.930 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_actions.table.tmpr359.gz (7/81/fopen): adding to final database dump
+0702.972 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_actions.table.gz (8/81/fopen): adding to final database dump
+0702.986 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/81/fopen): adding to final database dump
+0703.012 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_claims.table.gz (10/81/fopen): adding to final database dump
+0703.035 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_groups.table.tmpr8.gz (11/81/fopen): adding to final database dump
+0703.062 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_groups.table.gz (12/81/fopen): adding to final database dump
+0703.085 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_logs.table.tmpr1037.gz (13/81/fopen): adding to final database dump
+0703.119 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_actionscheduler_logs.table.gz (14/81/fopen): adding to final database dump
+0703.144 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_commentmeta.table.tmpr0.gz (15/81/fopen): adding to final database dump
+0703.488 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_commentmeta.table.gz (16/81/fopen): adding to final database dump
+0703.581 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_comments.table.tmpr16.gz (17/81/fopen): adding to final database dump
+0703.719 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_comments.table.gz (18/81/fopen): adding to final database dump
+0703.785 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_links.table.tmpr0.gz (19/81/fopen): adding to final database dump
+0703.828 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_links.table.gz (20/81/fopen): adding to final database dump
+0703.924 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_postmeta.table.tmpr6795.gz (21/81/fopen): adding to final database dump
+0704.066 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_postmeta.table.gz (22/81/fopen): adding to final database dump
+0704.099 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_posts.table.tmpr2746.gz (23/81/fopen): adding to final database dump
+0704.125 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_posts.table.gz (24/81/fopen): adding to final database dump
+0704.149 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_term_relationships.table.tmpr100001.gz (25/81/fopen): adding to final database dump
+0704.181 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_term_relationships.table.gz (26/81/fopen): adding to final database dump
+0704.232 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_term_taxonomy.table.tmpr50.gz (27/81/fopen): adding to final database dump
+0704.274 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_term_taxonomy.table.gz (28/81/fopen): adding to final database dump
+0704.323 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_termmeta.table.tmpr72.gz (29/81/fopen): adding to final database dump
+0704.363 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_termmeta.table.gz (30/81/fopen): adding to final database dump
+0704.397 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_terms.table.tmpr50.gz (31/81/fopen): adding to final database dump
+0704.455 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_terms.table.gz (32/81/fopen): adding to final database dump
+0704.487 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/81/fopen): adding to final database dump
+0704.519 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_category_lookup.table.gz (34/81/fopen): adding to final database dump
+0704.553 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_meta_lookup.table.tmpr2746.gz (35/81/fopen): adding to final database dump
+0704.668 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_meta_lookup.table.gz (36/81/fopen): adding to final database dump
+0704.782 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/81/fopen): adding to final database dump
+0704.874 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_reserved_stock.table.gz (38/81/fopen): adding to final database dump
+0704.908 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_tax_rate_classes.table.tmpr10.gz (39/81/fopen): adding to final database dump
+0704.973 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_tax_rate_classes.table.gz (40/81/fopen): adding to final database dump
+0704.996 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_order_itemmeta.table.tmpr250.gz (41/81/fopen): adding to final database dump
+0705.083 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_order_itemmeta.table.gz (42/81/fopen): adding to final database dump
+0705.112 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/81/fopen): adding to final database dump
+0705.137 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/81/fopen): adding to final database dump
+0705.162 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_cart_abandonment.table.tmpr1001.gz (45/81/fopen): adding to final database dump
+0705.186 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_cart_abandonment.table.gz (46/81/fopen): adding to final database dump
+0705.203 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_history.table.tmpr0.gz (47/81/fopen): adding to final database dump
+0705.227 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_history.table.gz (48/81/fopen): adding to final database dump
+0705.252 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_templates.table.tmpr4.gz (49/81/fopen): adding to final database dump
+0705.277 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_templates.table.gz (50/81/fopen): adding to final database dump
+0705.302 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_templates_meta.table.tmpr19.gz (51/81/fopen): adding to final database dump
+0705.326 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_cartflows_ca_email_templates_meta.table.gz (52/81/fopen): adding to final database dump
+0705.360 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_advertised_products.table.tmpr0.gz (53/81/fopen): adding to final database dump
+0705.383 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_advertised_products.table.gz (54/81/fopen): adding to final database dump
+0705.425 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_announcement.table.tmpr0.gz (55/81/fopen): adding to final database dump
+0705.450 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_announcement.table.gz (56/81/fopen): adding to final database dump
+0705.475 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_delivery_time.table.tmpr0.gz (57/81/fopen): adding to final database dump
+0705.499 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_delivery_time.table.gz (58/81/fopen): adding to final database dump
+0705.524 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_distance_rate_shipping.table.tmpr0.gz (59/81/fopen): adding to final database dump
+0705.549 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_distance_rate_shipping.table.gz (60/81/fopen): adding to final database dump
+0705.582 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_follow_store_followers.table.tmpr2.gz (61/81/fopen): adding to final database dump
+0705.605 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_follow_store_followers.table.gz (62/81/fopen): adding to final database dump
+0705.631 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_orders.table.tmpr8.gz (63/81/fopen): adding to final database dump
+0705.673 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_orders.table.gz (64/81/fopen): adding to final database dump
+0705.704 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_product_map.table.tmpr0.gz (65/81/fopen): adding to final database dump
+0705.746 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_product_map.table.gz (66/81/fopen): adding to final database dump
+0705.951 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_refund.table.tmpr0.gz (67/81/fopen): adding to final database dump
+0706.067 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_refund.table.gz (68/81/fopen): adding to final database dump
+0706.174 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_report_abuse_reports.table.tmpr0.gz (69/81/fopen): adding to final database dump
+0706.225 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_report_abuse_reports.table.gz (70/81/fopen): adding to final database dump
+0706.257 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quote_details.table.tmpr0.gz (71/81/fopen): adding to final database dump
+0706.299 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quote_details.table.gz (72/81/fopen): adding to final database dump
+0706.340 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quote_rules.table.tmpr0.gz (73/81/fopen): adding to final database dump
+0706.354 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quote_rules.table.gz (74/81/fopen): adding to final database dump
+0706.372 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quotes.table.tmpr0.gz (75/81/fopen): adding to final database dump
+0706.425 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_request_quotes.table.gz (76/81/fopen): adding to final database dump
+0706.463 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_reverse_withdrawal.table.tmpr0.gz (77/81/fopen): adding to final database dump
+0706.486 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_reverse_withdrawal.table.gz (78/81/fopen): adding to final database dump
+0706.512 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_conversations.table.tmpr0.gz (79/81/fopen): adding to final database dump
+0706.536 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_conversations.table.gz (80/81/fopen): adding to final database dump
+0706.562 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_request.table.tmpr0.gz (81/81/fopen): adding to final database dump
+0706.585 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_request.table.gz (82/81/fopen): adding to final database dump
+0706.603 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_request_product.table.tmpr0.gz (83/81/fopen): adding to final database dump
+0706.645 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_rma_request_product.table.gz (84/81/fopen): adding to final database dump
+0706.668 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge.table.tmpr0.gz (85/81/fopen): adding to final database dump
+0706.709 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge.table.gz (86/81/fopen): adding to final database dump
+0706.735 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge_acquired.table.tmpr0.gz (87/81/fopen): adding to final database dump
+0706.762 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge_acquired.table.gz (88/81/fopen): adding to final database dump
+0706.794 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge_level.table.tmpr0.gz (89/81/fopen): adding to final database dump
+0706.860 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_seller_badge_level.table.gz (90/81/fopen): adding to final database dump
+0706.931 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_tracking.table.tmpr0.gz (91/81/fopen): adding to final database dump
+0706.964 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_tracking.table.gz (92/81/fopen): adding to final database dump
+0706.990 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_zone_locations.table.tmpr192.gz (93/81/fopen): adding to final database dump
+0707.106 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_zone_locations.table.gz (94/81/fopen): adding to final database dump
+0707.236 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_zone_methods.table.tmpr5.gz (95/81/fopen): adding to final database dump
+0707.279 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_shipping_zone_methods.table.gz (96/81/fopen): adding to final database dump
+0707.310 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_table_rate_shipping.table.tmpr0.gz (97/81/fopen): adding to final database dump
+0707.336 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_table_rate_shipping.table.gz (98/81/fopen): adding to final database dump
+0707.359 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_vendor_balance.table.tmpr8.gz (99/81/fopen): adding to final database dump
+0707.483 (0) The time we have been running (707.4) is approaching the resumption interval (733) - increasing resumption interval to 738
+0707.550 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_vendor_balance.table.gz (100/81/fopen): adding to final database dump
+0707.565 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_withdraw.table.tmpr0.gz (101/81/fopen): adding to final database dump
+0707.592 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_dokan_withdraw.table.gz (102/81/fopen): adding to final database dump
+0707.615 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_e_events.table.tmpr0.gz (103/81/fopen): adding to final database dump
+0707.641 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_e_events.table.gz (104/81/fopen): adding to final database dump
+0707.664 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_admin_note_actions.table.tmpr1952.gz (105/81/fopen): adding to final database dump
+0707.691 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_admin_note_actions.table.gz (106/81/fopen): adding to final database dump
+0707.723 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_admin_notes.table.tmpr70.gz (107/81/fopen): adding to final database dump
+0707.774 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_admin_notes.table.gz (108/81/fopen): adding to final database dump
+0707.833 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_customer_lookup.table.tmpr2.gz (109/81/fopen): adding to final database dump
+0707.872 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_customer_lookup.table.gz (110/81/fopen): adding to final database dump
+0707.895 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_download_log.table.tmpr0.gz (111/81/fopen): adding to final database dump
+0707.939 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_download_log.table.gz (112/81/fopen): adding to final database dump
+0707.971 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (113/81/fopen): adding to final database dump
+0708.014 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_coupon_lookup.table.gz (114/81/fopen): adding to final database dump
+0708.093 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_product_lookup.table.tmpr25.gz (115/81/fopen): adding to final database dump
+0708.179 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_product_lookup.table.gz (116/81/fopen): adding to final database dump
+0708.298 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_stats.table.tmpr2734.gz (117/81/fopen): adding to final database dump
+0708.432 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_stats.table.gz (118/81/fopen): adding to final database dump
+0708.455 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_tax_lookup.table.tmpr1001.gz (119/81/fopen): adding to final database dump
+0708.481 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_order_tax_lookup.table.gz (120/81/fopen): adding to final database dump
+0708.504 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (121/81/fopen): adding to final database dump
+0708.547 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_attributes_lookup.table.gz (122/81/fopen): adding to final database dump
+0708.570 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_download_directories.table.tmpr3.gz (123/81/fopen): adding to final database dump
+0708.597 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_product_download_directories.table.gz (124/81/fopen): adding to final database dump
+0708.638 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_rate_limits.table.tmpr2.gz (125/81/fopen): adding to final database dump
+0708.661 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_rate_limits.table.gz (126/81/fopen): adding to final database dump
+0708.695 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_webhooks.table.tmpr0.gz (127/81/fopen): adding to final database dump
+0708.730 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wc_webhooks.table.gz (128/81/fopen): adding to final database dump
+0708.770 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcpdf_invoice_number.table.tmpr7.gz (129/81/fopen): adding to final database dump
+0708.812 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcpdf_invoice_number.table.gz (130/81/fopen): adding to final database dump
+0708.844 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_request_notes.table.tmpr0.gz (131/81/fopen): adding to final database dump
+0708.877 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_request_notes.table.gz (132/81/fopen): adding to final database dump
+0708.900 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_request_product_map.table.tmpr4.gz (133/81/fopen): adding to final database dump
+0708.944 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_request_product_map.table.gz (134/81/fopen): adding to final database dump
+0708.974 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_warranty_requests.table.tmpr3.gz (135/81/fopen): adding to final database dump
+0709.019 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wcrw_warranty_requests.table.gz (136/81/fopen): adding to final database dump
+0709.050 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (137/81/fopen): adding to final database dump
+0709.073 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_api_keys.table.gz (138/81/fopen): adding to final database dump
+0709.101 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr4.gz (139/81/fopen): adding to final database dump
+0709.138 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_attribute_taxonomies.table.gz (140/81/fopen): adding to final database dump
+0709.534 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (141/81/fopen): adding to final database dump
+0709.651 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (142/81/fopen): adding to final database dump
+0709.773 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_log.table.tmpr0.gz (143/81/fopen): adding to final database dump
+0709.823 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_log.table.gz (144/81/fopen): adding to final database dump
+0709.871 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_order_items.table.tmpr28.gz (145/81/fopen): adding to final database dump
+0709.916 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_order_items.table.gz (146/81/fopen): adding to final database dump
+0709.954 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (147/81/fopen): adding to final database dump
+0710.006 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_payment_tokens.table.gz (148/81/fopen): adding to final database dump
+0710.044 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_sessions.table.tmpr254.gz (149/81/fopen): adding to final database dump
+0710.089 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_sessions.table.gz (150/81/fopen): adding to final database dump
+0710.126 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (151/81/fopen): adding to final database dump
+0710.178 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zone_locations.table.gz (152/81/fopen): adding to final database dump
+0710.237 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (153/81/fopen): adding to final database dump
+0710.289 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zone_methods.table.gz (154/81/fopen): adding to final database dump
+0710.353 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (155/81/fopen): adding to final database dump
+0710.398 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_shipping_zones.table.gz (156/81/fopen): adding to final database dump
+0710.450 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (157/81/fopen): adding to final database dump
+0710.492 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_tax_rate_locations.table.gz (158/81/fopen): adding to final database dump
+0710.546 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_tax_rates.table.tmpr7.gz (159/81/fopen): adding to final database dump
+0710.609 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_woocommerce_tax_rates.table.gz (160/81/fopen): adding to final database dump
+0710.714 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wpforms_tasks_meta.table.tmpr13.gz (161/81/fopen): adding to final database dump
+0710.810 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db-table-wp_wpforms_tasks_meta.table.gz (162/81/fopen): adding to final database dump
+0710.958 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz: finished writing out complete database file (1679.9 KB)
+0711.224 (0) Total database tables backed up: 81 (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz, size: 1720321, sha1: 83613351fa7cedc85f536ca6a1f0190e5e68441b, sha256: 0f00f39c28d200a83a96d4dcbd32cbb5a702d94b9ab3635845cc30678efeb033)
+0711.345 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip: plugins: This file has already been successfully uploaded
+0711.373 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip: themes: This file has already been successfully uploaded
+0711.405 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip: uploads: This file has already been successfully uploaded
+0711.427 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip: others: This file has already been successfully uploaded
+0711.454 (0) backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0711.484 (0) Saving backup history. Total backup size: 91.2 MB
+0711.545 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0711.649 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0711.821 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-42d41c0e1243ac69f6adff393ae65c0d)
+0712.603 (0) Google Drive: quota usage: used=641.4 MB, total=15360 MB, available=14718.6 MB
+0712.641 (0) Google Drive: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz: Attempting to upload to Google Drive (into folder id: 1UEopTjs8lbVvZcZaEDF4FfvOIUZ3EgCr)
+0714.623 (0) The time we have been running (714.5) is approaching the resumption interval (738) - increasing resumption interval to 745
+0714.721 (0) Googledrive chunked upload: 61 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 124.6 / 50)
+0716.890 (0) The time we have been running (716.6) is approaching the resumption interval (745) - increasing resumption interval to 747
+0716.961 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0717.039 (0) Google Drive: OK: Archive backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz uploaded in 4.38 seconds
+0717.077 (0) Recording as successfully uploaded: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz
+0717.361 (0) Deleting local file: backup_2023-05-11-0813_UrbanStore_f5b61037f64c-db.gz: OK
+0717.439 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0717.469 (0) Number of backup sets in history: 3; groups (db): 1
+0717.500 (0) Examining (for databases) backup set with group_id=0, nonce=f5b61037f64c, datestamp=1683792829 (May 11 2023 08:13:49)
+0717.529 (0) This backup set is the backup set just made, so will not be deleted.
+0717.529 (0) Examining (for databases) backup set with group_id=0, nonce=43c54aed5217, datestamp=1680710882 (Apr 05 2023 16:08:02)
+0717.529 (0) This backup set (1680710882) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0717.529 (0) Examining (for databases) backup set with group_id=0, nonce=b5dd0c498e11, datestamp=1680666800 (Apr 05 2023 03:53:20)
+0717.529 (0) Number of backup sets in history: 3; groups (files): 1
+0717.558 (0) Examining (for files) backup set with nonce=f5b61037f64c, datestamp=1683792829 (May 11 2023 08:13:49)
+0717.558 (0) This backup set is the backup set just made, so will not be deleted.
+0717.587 (0) This backup set is the backup set just made, so will not be deleted.
+0717.587 (0) This backup set is the backup set just made, so will not be deleted.
+0717.587 (0) This backup set is the backup set just made, so will not be deleted.
+0717.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0717.616 (0) Examining (for files) backup set with nonce=43c54aed5217, datestamp=1680710882 (Apr 05 2023 16:08:02)
+0717.616 (0) This backup set (1680710882) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0717.616 (0) This backup set (1680710882) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0717.616 (0) This backup set (1680710882) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0717.616 (0) This backup set (1680710882) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0717.616 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0717.617 (0) Examining (for files) backup set with nonce=b5dd0c498e11, datestamp=1680666800 (Apr 05 2023 03:53:20)
+0717.617 (0) This backup set (1680666800) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0717.617 (0) This backup set (1680666800) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0717.617 (0) This backup set (1680666800) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0717.617 (0) This backup set (1680666800) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0717.617 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0717.653 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0717.731 (0) Resume backup (f5b61037f64c, 0): finish run
+0717.818 (0) Decremented the semaphore (fd) by 1
+0717.883 (0) Semaphore (fd) unlocked
+0717.966 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0718.146 (0) Deleting zip manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-plugins.zip.list.tmp)
+0718.173 (0) Deleting zip manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-themes.zip.list.tmp)
+0718.205 (0) Deleting zip manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-uploads.zip.list.tmp)
+0718.236 (0) Deleting zip manifest (backup_2023-05-11-0813_UrbanStore_f5b61037f64c-others.zip.list.tmp)
+0718.419 (0) Fetching RSS news feed
+0720.789 (0) Fetched RSS news feed; result is a: SimplePie
+0720.839 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: rusha...
+0720.893 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0720.922 (0) The backup apparently succeeded and is now complete
